@@ -10,7 +10,6 @@ pipeline
                 sh "yum install docker -y"
                 sh "service docker start"
                 sh "service docker status"
-                echo "Docker Installed"
             }
         }
     }
